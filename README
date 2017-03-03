@@ -1,0 +1,16 @@
+The random forests algorithm is one of the best currently known algorithms for classification (and regression analysis), 
+able to classify big quantities of data with great accuracy. Also, an algorithm is inherently parallelisable. 
+The original algorithm is written in the programming language Fortran 77, 
+which is obsolete and does not provide many opportunities that modern programming languages; 
+also, the original code is not an example of "clear" programming, and it is very difficult to apply for educational purposes.
+
+As part of this project is proposed adaptation algorithm, appropriate applicability, 
+translation of this algorithm in Fortran 90. Unlike Fortran 77, Fortran 90 is strukturirirani parallel programming language, 
+and is a program written in it easily run on a parallel infrastructure, and is easy to read, both researchers and students. 
+In addition, recently, which is launched (for non-commercial use) free implementation, 
+which is the absence of any one of the major obstacles in the implementation of the original algorithm, 
+for fear they will not be accepted by the academic community. Creator algorithm, professor emeritus Leo Breiman at Berkeley , 
+said he was in correspondence great interest in this idea. 
+He confirmed that no one has yet worked on a parallel implementation of his algorithm, and promised his support and help. 
+Leo Breiman one of the pioneers in the fields of machine learning and data mining, 
+and a co-author of the first major program (CART - Classification and Regression Trees) in the area.
